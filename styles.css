@@ -1,0 +1,32 @@
+.tablazat{
+  width: auto;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  height: auto;
+  margin: 0px;
+}
+
+.row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*display:inline-block; -> here this would make the 16 row 1 (and first row).*/
+}
+
+.col{
+  flex-basis: 100%;
+  flex: 1;
+  
+}
+
+.hover{
+  opacity: 0.5;
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
